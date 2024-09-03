@@ -10,16 +10,25 @@
                     data-tabs-active-classes="text-white bg-gray-900 px-6 py-3 dark:bg-orange-500 rounded-lg"
                     data-tabs-inactive-classes="text-gray-500 hover:text-gray-600 dark:text-gray-400 hover:border-gray-300 dark:hover:text-gray-300"
                     role="tablist">
+
                     <li class="me-2" role="presentation">
                         <button class="inline-block p-4 rounded-lg" id="profile-styled-tab"
                             data-tabs-target="#styled-profile" type="button" role="tab" aria-controls="profile"
                             aria-selected="false">En cours</button>
                     </li>
+
                     <li class="me-2" role="presentation">
                         <button
                             class="inline-block p-4 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
-                            id="dashboard-styled-tab" data-tabs-target="#styled-dashboard" type="button" role="tab"
-                            aria-controls="dashboard" aria-selected="false">Historique</button>
+                            id="collaborators-styled-tab" data-tabs-target="#styled-collaborators" type="button"
+                            role="tab" aria-controls="collaborators" aria-selected="false">Collaborateurs</button>
+                    </li>
+
+                    <li class="me-2" role="presentation">
+                        <button
+                            class="inline-block p-4 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                            id="dashboard-styled-tab" data-tabs-target="#styled-dashboard" type="button"
+                            role="tab" aria-controls="dashboard" aria-selected="false">Historique</button>
                     </li>
                     <li class="me-2" role="presentation">
                         <button
@@ -119,7 +128,8 @@
                                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             </svg>
                                         </a>
-                                        <a href="" class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                                        <a href=""
+                                            class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
                                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="none" viewBox="0 0 24 24">
@@ -168,7 +178,8 @@
                                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             </svg>
                                         </a>
-                                        <a href="" class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                                        <a href=""
+                                            class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
                                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="none" viewBox="0 0 24 24">
@@ -217,7 +228,8 @@
                                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             </svg>
                                         </a>
-                                        <a href="" class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                                        <a href=""
+                                            class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
                                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="none" viewBox="0 0 24 24">
@@ -266,7 +278,8 @@
                                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             </svg>
                                         </a>
-                                        <a href="" class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                                        <a href=""
+                                            class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
                                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="none" viewBox="0 0 24 24">
@@ -315,7 +328,8 @@
                                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             </svg>
                                         </a>
-                                        <a href="" class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                                        <a href=""
+                                            class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
                                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="none" viewBox="0 0 24 24">
@@ -364,7 +378,8 @@
                                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             </svg>
                                         </a>
-                                        <a href="" class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                                        <a href=""
+                                            class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
                                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="none" viewBox="0 0 24 24">
@@ -413,7 +428,8 @@
                                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             </svg>
                                         </a>
-                                        <a href="" class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                                        <a href=""
+                                            class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
                                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="none" viewBox="0 0 24 24">
@@ -462,7 +478,8 @@
                                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             </svg>
                                         </a>
-                                        <a href="" class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                                        <a href=""
+                                            class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
                                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="none" viewBox="0 0 24 24">
@@ -511,7 +528,8 @@
                                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             </svg>
                                         </a>
-                                        <a href="" class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                                        <a href=""
+                                            class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
                                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="none" viewBox="0 0 24 24">
@@ -560,7 +578,8 @@
                                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             </svg>
                                         </a>
-                                        <a href="" class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                                        <a href=""
+                                            class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
                                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="none" viewBox="0 0 24 24">
@@ -609,7 +628,8 @@
                                                     d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                             </svg>
                                         </a>
-                                        <a href="" class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
+                                        <a href=""
+                                            class="bg-gray-700 dark:hover:bg-gray-800 px-3 py-2 rounded">
                                             <svg class="w-5 h-5 text-white dark:text-white" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 fill="none" viewBox="0 0 24 24">
@@ -630,6 +650,21 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="hidden
+                                    p-4 rounded-lg"
+                            id="styled-collaborators" role="tabpanel" aria-labelledby="collaborators-tab">
+                            <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content
+                                the
+                                <strong class="font-medium text-gray-800 dark:text-white">Collaborators tab's
+                                    associated
+                                    content</strong>.
+                                Clicking another tab will toggle the visibility of this one for the next. The
+                                tab
+                                JavaScript
+                                swaps
+                                classes to control the content visibility and styling.
+                            </p>
                         </div>
                         <div class="hidden
                                     p-4 rounded-lg" id="styled-dashboard"
